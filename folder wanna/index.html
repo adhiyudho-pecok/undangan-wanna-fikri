@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="undangan pernikahan Wanna & Fikri" />
+    <meta
+      property="og:description"
+      content="Sabtu, 12 Desember 2026, Kota Medan, Sumatra utara"
+    />
+    <meta property="og:image" content="https://wanna-fikri.netlify.app/backgrounditem2.JPG" />
+    <meta property="og:type" content="website" />
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--- 1. COVER -->
+    <section id="cover">
+      <h1>
+        <span>Wannahari</span>
+        <span>&amp;</span>
+        <span>Fikri</span>
+      </h1>
+      <p>Dear,</p>
+      <h2 id="namaTamu"></h2>
+      <button id="btnBuka">Buka Undangan</button>
+    </section>
+
+    <!-- OPENING VIDEO -->
+    <div id="opening" class="hidden">
+      <video
+        id="videoOpening"
+        src="bgmaroon.mp4"
+        muted
+        loop
+        playsinline
+        preload="auto"
+      ></video>
+      <div id="teksOpening">
+        <p>The Wedding of</p>
+        <h1>Wanna &amp; Fikri</h1>
+      </div>
+      <button id="btnLewati">Lewati</button>
+    </div>
+
+    <!-- ISI UNDANGAN (disembunyikan dulu sampai tombol di klik)-->
+    <main id="isi" class="hidden">
+      <!-- HERO -->
+      <section id="hero" class="hias">
+        <video
+          id="videoHero"
+          class="bg-video"
+          src="lilin-loop.mp4"
+          muted
+          loop
+          playsinline
+          preload="auto"
+        ></video>
+        <p class="judul-kecil">The wedding of</p>
+        <div class="bingkai-oval">
+          <img src="backgrounditem2.JPG" alt="wanna dan fikri" />
+        </div>
+        <h1>Wanna &amp; Fikri</h1>
+        <p class="tanggal">Sabtu, 12 Desember 2026</p>
+        <div class="scroll-ind"><span></span></div>
+      </section>
+
+      <!-- PEMBUKA -->
+      <section id="pembuka" class="hias">
+        <h2>Assalamu'alaikum Wr. Wb.</h2>
+        <p class="ayat">
+          "Di antara tanda-tanda (kebesaran)-Nya ialah bahwa, Dia menciptakan
+          pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa
+          tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih
+          sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat
+          tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+        </p>
+        <h2>(QS Ar-Rum:21)</h2>
+      </section>
+
+      <!-- 2. MEMPELAI -->
+      <section id="mempelai" class="ornamen-canva">
+        <video class="latar-video" src="lilin-loop.mp4" muted loop playsinline="none"></video>
+        <h2>Mempelai</h2>
+        <div class="foto-mempelai">
+          <img src="mempelai-perempuan.jpg" alt="pria" />
+        </div>
+        <div class="pria dari-kiri">
+          <h3>Wannahari Shalsabila</h3>
+          <p>Putri dari bapak Alm. Suharjak &amp; Ibu Yusnani Rangkuti</p>
+        </div>
+
+        <div class="dan">&amp;</div>
+        <div class="foto-mempelai">
+          <img src="mempelai-pria.jpg" alt="perempuan" />
+        </div>
+        <div class="wanita dari-kanan">
+          <h3>Mohammad Fikri Achyar</h3>
+          <p>Putra dari Bapak Anhar &amp; Ibu Nurul Hidayani</p>
+        </div>
+      </section>
+
+      <!-- 3. COUNTDOWN -->
+      <section id="countdown">
+        <video
+          class="bg-video"
+          src="bg-countdown.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+        <h2>Menuju Hari Bahagia</h2>
+        <div id="timer">
+          <div><span id="hari">0</span><small>Hari</small></div>
+          <div><span id="jam">0</span><small>Jam</small></div>
+          <div><span id="menit">0</span><small>Menit</small></div>
+          <div><span id="detik">0</span><small>Detik</small></div>
+        </div>
+      </section>
+
+      <!-- 4. ACARA -->
+      <section id="acara" class="ornamen-canva">
+        <video class="latar-video" src="lilin-loop.mp4" muted loop playsinline preload="none"></video>
+        <h2>Detail Acara</h2>
+        <div class="kartu">
+          <h3>Akad Nikah</h3>
+          <p>Sabtu, 12 Desember 2026</p>
+          <p>09.00 - 10.30 WIB</p>
+          <p>Jalan Patriot Gg. Perjaga No.30 A, Kel.Lalang, Kec. Medan sunggal, Kota Medan, Sumatera Utara</p>
+        </div>
+        <div class="kartu">
+          <h3>Resepsi</h3>
+          <p>Sabtu, 12 Desember 2026</p>
+          <p>10.30 - Selesai</p>
+          <p>Jalan Patriot Gg. Perjaga No.30 A, Kel.Lalang, Kec. Medan sunggal, Kota Medan, Sumatera Utara</p>
+        </div>
+        <p></p>
+      </section>
+
+      <!-- 5. GALERI -->
+      <section id="galeri">
+        <h2>Galeri</h2>
+        <div class="grid-foto">
+          <img src="backgrounditem1.JPG" alt="Foto 1" />
+          <img src="backgrounditem3.JPG" alt="Foto 2" />
+          <img src="galeri1.JPG" alt="Foto 3" />
+          <img src="galeri2.JPG" alt="foto 4" />
+          <img src="galeri3.JPG" alt="foto 5" />
+        </div>
+      </section>
+
+      <!-- LOKASI -->
+      <section id="lokasi">
+        <video class="latar-video" src="lilin-loop.mp4" muted loop playsinline preload="none"></video>
+        <h2>Lokasi Acara</h2>
+        <p>Rumah Kediaman Perempuan</p>
+        <div class="peta">
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1792625927828!6m8!1m7!1s8Yl7gqzqdRgmh1J4ZaQvDg!2m2!1d3.591210593065224!2d98.62056384516019!3f165.72537218916312!4f-5.3535888767551825!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a class="btn-peta" href="https://maps.app.goo.gl/HoYfWPy1zHuXkhAS8" target="_blank" rel="noopener">Buka di google</a>
+      </section>
+      
+
+      <!-- WEEDING GIFT -->
+      <section id="gift" class="hias">
+        <h2>Wedding Gift</h2>
+        <p class="gift-teks">
+          Doa restu Anda adalah hadiah terindah bagi kami. Namun jika ingin
+          memberi tanda kasih, dapat melalui:
+        </p>
+
+        <div class="kartu">
+          <h3>BCA</h3>
+          <p class="no-rek">5385098631</p>
+          <p>a.n Mohammad Fikri Achyar</p>
+          <button class="btn-salin" data-salin="5385098631">Salin Nomor</button>
+        </div>
+
+        <div class="kartu">
+          <h3>MANDIRI</h3>
+          <p class="no-rek">1270010703096</p>
+          <p>a.n Wannahari Shalsabila</p>
+          <button class="btn-salin" data-salin="1270010703096">
+            Salin Nomor
+          </button>
+        </div>
+      </section>
+
+      <!-- 6. RSVP -->
+      <section id="rsvp" class="hias">
+        <h2>Wishes</h2>
+        <h3 class="judul-ucapan">Ucapan &amp; Doa</h3>
+        <p class="sub-ucapan">Berikan ucapan dan doa kepada kedua mempelai</p>
+        <form id="formRsvp">
+          <input type="text" id="nama" placeholder="Nama kamu" required />
+          <select id="kehadiran">
+            <option value="hadir">Hadir</option>
+            <option value="tidak">Tidak</option>
+          </select>
+          <textarea id="ucapan" placeholder="Tulis ucapan..."></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+
+        <p id="jumlahUcapan" class="jumlah-ucapan"></p>
+        <div id="daftarUcapan" class="daftar-ucapan"></div>
+        <div id="halamanUcapan" class="halaman-ucapan"></div>
+      </section>
+
+      <!-- PENUTUP -->
+      <section id="penutup" class="ornamen-canva">
+        <h2 class="judul-penutup">Terima Kasih</h2>
+        <video class="latar-video" src="lilin-loop.mp4" muted loop playsinline preload="none"></video>
+        <div class="bingkai-oval">
+          <img src="prewedwanna2.JPG" alt="Foto penutup" />
+        </div>
+
+        <p class="kalimat-penutup">
+          Merupakan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan
+          hadir dan memberikan doa restu. Terima kasih atas kehadiran dan doa
+          yang diberikan.
+        </p>
+
+        <p class="salam-penutup">Wassalamu'alaikum Wr. Wb.</p>
+        <p class="kami">Kami yang berbahagia</p>
+        <h2 class="nama-penutup">
+          <span>Wannahari Shalsabila</span>
+          <span>&amp;</span>
+          <span>Mohammad Fikri Achyar</span>
+        </h2>
+      </section>
+
+      <footer>
+        <p>Instagram @yudhoadhii</p>
+      </footer>
+    </main>
+
+    <audio id="musik" src="You're Still The One [7SaGhzBObHs].mp3" loop></audio>
+
+    <script type="module" src="udg.js"></script>
+  </body>
+</html>
