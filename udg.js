@@ -88,7 +88,7 @@ videoOpening.addEventListener("ended", masukIsi);
 btnLewati.addEventListener("click", masukIsi);
 
 // 3. COUNTDOWN
-const hariH = new Date("2026-10-24T08:00:00+07:00");
+const hariH = new Date("2026-12-12T08:00:00+07:00");
 
 function updateCountdown() {
     const sekarang = new Date();
