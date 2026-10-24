@@ -1117,3 +1117,82 @@ footer {
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* JARAK PEMBUKA */
+#pembuka h2 {
+  margin-bottom: 28px;
+}
+
+#pembuka .ayat {
+  margin: 0 auto 22px;
+  line-height: 1.9;
+}
+
+#pembuka .sumber-ayat {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 18px;
+  color: #5a0f1f;
+}
+
+/* GALERI NAIK DIKIT & TANPA KE POTONG */
+#galeri {
+  padding-top: 200px;
+}
+
+#galeri .grid-foto {
+  overflow-y: hidden;
+  padding: 8px 11% 24px;
+}
+
+#galeri .grid-foto img.reveal {
+  transform: none
+}
+
+#rsvp {
+  padding-top: 60px;
+  padding-bottom: 36px;
+}
+
+/* WISHES / UCAPAN */
+.judul-ucapan {
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+
+.sub-ucapan {
+  margin-bottom: 24px;
+}
+
+#formRsvp input,
+#formRsvp select,
+#formRsvp textarea {
+  width: 100%;
+}
+
+formRsvp textarea {
+  resize: vertical;
+}
+
+.jumlah-ucapan {
+  max-width: 400px;
+  margin: 24px auto 12px;
+  text-align: left;
+}
+
+.daftar-ucapan {
+  gap: 12px;
+}
+
+.ucapan-item {
+  background: rgba(255, 255, 255, 0.06);
+  border: none;
+  border-left: 3px solid #e8c872;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.ucapan-item small {
+  display: block;
+  margin-top: 6px;
+}
